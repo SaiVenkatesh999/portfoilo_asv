@@ -8,6 +8,9 @@
 }
 
 body {
+  background-color: #e0f7fa; /* Light Cyan */
+  color: #004d40; /* Dark Cyan */
+
   font-family: "Poppins", sans-serif;
 }
 

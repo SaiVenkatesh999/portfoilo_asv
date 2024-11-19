@@ -315,9 +315,11 @@ section {
 }
 
 /* EXPERIENCE SECTION */
+/* EXPERIENCE SECTION */
 
 #experience {
   position: relative;
+  padding: 2rem 0; /* Add padding for spacing */
 }
 
 .experience-sub-title {
@@ -325,17 +327,18 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  text-align: center; /* Center the title */
 }
 
 .experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center; /* Center content horizontally */
 }
 
 .article-container {
   display: flex;
-  text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -344,13 +347,27 @@ section {
 
 article {
   display: flex;
+  flex-direction: column; /* Align icon and text vertically */
+  align-items: center; /* Center content in each article */
+  text-align: center;
   width: 10rem;
-  justify-content: space-around;
   gap: 0.5rem;
 }
 
 article .icon {
+  width: 3rem; /* Set a fixed size for icons */
+  height: 3rem;
   cursor: default;
+}
+
+article .skill-title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+article .skill-level {
+  color: rgb(120, 120, 120);
+  font-size: 0.9rem;
 }
 
 /* PROJECTS SECTION */
@@ -429,4 +446,19 @@ footer {
 
 footer p {
   text-align: center;
+}
+/* Normalize Heading Styles */
+h3 {
+  font-size: 1.5rem; /* Adjust as needed */
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure Consistent Styles for Other Elements */
+.custom-element {
+  font-size: 2 rem; /* Adjust to match the h3 */
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
 }
